@@ -66,8 +66,14 @@ $ cd src
 # Instale as dependências
 $ yarn ou npm install
 
-# Execute a aplicação em modo de desenvolvimento
+# Execute o container do postgres
 $ docker-compose up
+
+## criar database de test fin_api_test dentro do postgress
+$ create database fin_api_test
+
+## Iniciar aplicação
+$ yarn test ou npm run test
 
 # O servidor inciará na porta:3333 - acesse <http://localhost:3333>
 
