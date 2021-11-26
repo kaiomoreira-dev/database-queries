@@ -49,6 +49,8 @@ E o banco de dados Postgres:
 [Postgres](https://www.postgresql.org/).
 E o docker para utilizar docker-compose para subir o container do Postgres
 [Docker](https://https://www.docker.com/)
+E instalar o docker-compose pra subir o container.
+[Docker-Compose](https://docs.docker.com/compose/install/).
 Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
 
 ### 🎲 Rodando o Back End (servidor)
@@ -66,7 +68,10 @@ $ cd src
 # Instale as dependências
 $ yarn ou npm install
 
-## Iniciar aplicação
+# Subir apenas o container do postgres através do docker
+$ docker-compose up -d
+
+# Executar o a lib jest para testar o repositório
 $ yarn test ou npm run test
 
 # O servidor inciará na porta:3333 - acesse <http://localhost:3333>
