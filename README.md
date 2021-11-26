@@ -4,7 +4,7 @@
 * Rockeseat
 
 ## Curso
-* Ignite Trilha Nodejs
+* BootCamp Ignite Trilha Nodejs
 
 ## Desafio05
 * Criar os três tipos de queries usando o TypeORM. Cria modelagem de banco de dados.
