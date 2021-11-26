@@ -66,12 +66,6 @@ $ cd src
 # Instale as dependências
 $ yarn ou npm install
 
-# Execute o container do postgres
-$ docker-compose up
-
-## criar database de test fin_api_test dentro do postgress
-$ create database fin_api_test
-
 ## Iniciar aplicação
 $ yarn test ou npm run test
 
