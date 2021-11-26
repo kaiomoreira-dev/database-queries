@@ -1,0 +1,15 @@
+{
+  "username": "docker",
+  "password": "queries",
+
+  "type": "postgres",
+  "name": "default",
+  "host": "localhost",
+  "port": 5432,
+  "database": "database_queries",
+  "entities": ["./src/modules/**/entities/*.ts"],
+  "migrations": ["./src/database/migrations/*.ts"],
+  "cli": {
+    "migrationsDir": "./src/database/migrations"
+  }
+}
